@@ -1,0 +1,17 @@
+● apache2.service - LSB: Apache2 web server
+   Loaded: loaded (/etc/init.d/apache2; bad; vendor preset: enabled)
+  Drop-In: /lib/systemd/system/apache2.service.d
+           └─apache2-systemd.conf
+   Active: inactive (dead)
+     Docs: man:systemd-sysv-generator(8)
+
+Jun 05 23:02:55 hansel apache2[8837]:  *
+Jun 05 23:02:55 hansel systemd[1]: Stopped LSB: Apache2 web server.
+Jun 05 23:13:15 hansel systemd[1]: Starting LSB: Apache2 web server...
+Jun 05 23:13:15 hansel apache2[9444]:  * Starting Apache httpd web server apache2
+Jun 05 23:13:16 hansel apache2[9444]:  *
+Jun 05 23:13:16 hansel systemd[1]: Started LSB: Apache2 web server.
+Jun 05 23:13:53 hansel systemd[1]: Stopping LSB: Apache2 web server...
+Jun 05 23:13:53 hansel apache2[9609]:  * Stopping Apache httpd web server apache2
+Jun 05 23:13:54 hansel apache2[9609]:  *
+Jun 05 23:13:54 hansel systemd[1]: Stopped LSB: Apache2 web server.
